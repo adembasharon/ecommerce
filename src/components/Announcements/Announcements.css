@@ -1,0 +1,8 @@
+.offer{
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(56, 138, 138);
+    padding: .2em 0;
+}
