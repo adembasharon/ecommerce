@@ -1,0 +1,37 @@
+.imege-view{
+    /* background-color: red; */
+    position: relative;
+}
+.img-viewer{
+    position:absolute;
+    top:50%;
+left: 50%;
+transform: translate(-50%,-50%);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-color:#fff;
+    z-index: -1;
+}
+.imege-view img{
+    z-index: 100%;
+    margin:2em;
+}
+
+.icons{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+
+}
+.icon-container{
+    position: relative;
+}
+
+
+
