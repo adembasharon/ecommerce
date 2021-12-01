@@ -6,6 +6,389 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
+.filter-size{
+  display: flex;
+  align-items: center;
+  padding: 2em;
+  justify-content: space-between;
+  font-size: 2rem;
+
+}
+.filter-size label{
+  padding: 1em .3em;
+}
+.filter-size select{
+  padding: .6em;
+  font-size: 1rem;
+  flex-direction: row;
+}
+.filtered-product{
+  display: flex;
+  align-items: center;
+}
+.dreses{
+  text-align: center;
+  font-size: 3rem;
+}
+.footer-holder{
+  background-color: bisque;
+}
+
+/* Singleproduct */
+.product-cover{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.product-heading{
+  font-size: 1.5rem;
+}
+.add-remove{
+  display: flex;
+  gap: 1em;
+  margin: 1em 0;
+}
+.productName p{
+  font-size: 1rem;
+  margin-top: .7em;
+}
+.productDescription p{
+  font-size: 1rem;
+  margin-top: .7em;
+  width: 50%;
+}
+.productDescription{
+  margin: 2em 0;
+}
+.productName{
+  margin: 2em 0;
+}
+.productSizes{
+  font-size: 1.4rem;
+  margin: 1.5em 0;
+
+}
+.productSizes label{
+ color: rgb(33, 33, 48); 
+
+}
+.product-prize{
+  font-size: 2rem;
+  color: rgb(18, 203, 209);
+}
+
+.productSizes select{
+  padding: .5em;
+  font-size: .9rem;
+  margin-left: .7em;
+}
+
+.productSizes p{
+  margin: .5em 0;
+}
+.hearts{
+  color: rgb(18, 203, 209);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.yellowcolor{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  
+}
+.maroon{
+  border-radius: 50%;
+  background-color: tomato;
+  width: 40px;
+  height: 40px;
+}
+.yellow{
+  border-radius: 50%;
+  background-color: yellow;
+  width: 40px;
+  height: 40px;
+  
+}
+.blue{
+  border-radius: 50%;
+  background-color: blue;
+  width: 40px;
+  height: 40px;
+}
+.choose-color{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: .6em;
+}
+.btn-color button{
+  padding: .4em .4em;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #000000;
+  background-color: white;
+  border: 2px solid rgb(18, 203, 209);
+}
+.quantity-unit{
+  border:2px solid rgb(18, 203, 209);
+  padding: .2em .2em;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.yellow-1{
+  border: 2px solid yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.maroon-1{
+  border: 2px solid maroon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blue-1{
+  border: 2px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+/* login */
+
+.login-container{
+  display: flex;
+  margin: 0 auto;
+  
+
+}
+
+.login-img{
+  background:linear-gradient(rgba(16, 77, 82,0.7), rgba(16, 77, 82,0.7)), url("https://images.unsplash.com/photo-1592839930500-3445eb72b8ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+color: seashell;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+ }
+
+
+.check{
+  display: flex;
+  justify-content: space-between;
+  margin: 2em 0;
+}
+.login-img{
+  flex: 1;
+  
+}
+.login-content{
+  flex: 1;
+  padding: 4em;
+  border-bottom:30px solid teal;
+}
+.login-heading{
+  text-align: center;
+  font-size: 2rem;
+}
+.login-email-adress, .visibility{
+  position: relative;
+  margin: 3em 0;
+}
+.email-adress{
+  border: transparent;
+  border-bottom: 5px solid grey;
+  width: 90%;
+  color: teal;
+
+  font-size: 2rem;
+  outline: none;
+ 
+}
+.emailPassword:focus~.inputLabel{
+top: -20px;
+color: teal;
+
+}
+.inputLabel{
+   position: absolute; 
+  top: 10px;
+  left: 20px;
+  color: darkgray;
+  transition: all .5s ease;
+  
+}
+
+.email-adress:focus{
+  border-bottom-color:teal ;
+}
+.password{
+  font-size: 2rem;
+  border: transparent;
+  width: 90%;
+  outline: none;
+}
+
+.password-container{
+  width: 90%;
+}
+.visibility{
+   display: flex; 
+  align-items: center;
+   justify-content: space-between; 
+   border-bottom:5px solid grey ;
+}
+.password:focus .visibility{
+  border-bottom-color: teal;
+}
+.login{
+  text-align: center;
+  padding: .6em 15em;
+  border-radius: 5px;
+  background-color:teal ;
+  border: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin: 1em 0;
+  cursor: pointer;
+}
+.login-email-adress{
+  outline: none;
+  border: none;
+}
+.news{
+  font-size: 1rem;
+  margin: 1em 0;
+}
+.news-account{
+  display: flex;
+  gap: 2em;
+  margin: 1.4em 0;
+}
+.news-account button{
+  padding: .1em 2em;
+  background-color: whitesmoke;
+  border: 2px solid teal;
+  color: teal;
+  border-radius: 5px;
+  
+  font-size: 1rem;
+}
+.coppyright{
+  text-align: center;
+  color: teal;
+  margin: 10em 0 0 0;
+}
+
+.login-h1{
+  margin: 1em 0;
+font-size: 2rem;
+}
+.login-p{
+  margin: 2em 0;
+  font-size: 1rem;
+}
+
+
+
+
+
+
+
+/* Signup */
+.singup-container{
+   display: flex; 
+  flex-direction: row;
+  align-items: center;
+   justify-content: center; 
+}
+.signup-img{
+  background: url("https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-repeat: no-repeat;
+  background-position: center center;
+   height: 100vh;
+   width: 100vw; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: white;
+  padding: 2em;
+  flex: 1;
+}
+
+.singup-page{
+  display: flex;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+width:50%;
+flex:1;
+
+}
+.singup-page label{
+  font-size: 3rem;
+  
+}
+.sign-up{
+  display: flex;
+justify-content: center;
+text-align: center;
+gap: 2em;
+}
+.sign-up input{
+  font-size: 1rem;
+  padding: .5em 1.1em;
+  border-radius: 5px;
+  margin:1em 0;
+  border: none;
+  background-color: #E5E6E1;
+}
+.sign-up-details{
+  font-size: 1.3rem;
+  margin: 1.2em 0;
+  padding: .4em 5em;
+  border: none;
+  background-color: #E5E6E1;
+  border-radius: 5px;
+}
+.signup-footer button{
+font-size: 1rem;
+padding: .3em 2em;
+color: white;
+margin: 1em 0;
+background-color: teal;
+border: none;
+border-radius: 4px;
+}
+.signup-footer p{
+  font-size: 1.5rem;
+  text-decoration: none;
+margin: .7em 0;
+}
+.signup-footer a{
+  text-decoration: none;
+  color: #000000;
+
+}
+
 
 
 

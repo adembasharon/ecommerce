@@ -1,0 +1,46 @@
+.input-item{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    /* align-items: center; */
+}
+.text-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2em 0;
+
+}
+.heading{
+    font-size: 3rem;
+    text-align: center;
+}
+.paragraph{
+    font-size: 1.5rem;
+    margin-top: 2em;
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    
+}
+.input-item button{
+    background-color: #3b9493;
+    padding: 0 1em;
+    border: none;
+    outline: none;
+} 
+.input-item input{
+    padding: 1em 6em;
+    border: 2px solid #3b9493;
+    font-size: 1rem;
+    color: black;
+} 
+
+.sendicon{
+    color: white;
+    
+}
+

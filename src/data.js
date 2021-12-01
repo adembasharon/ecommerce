@@ -77,7 +77,7 @@ export const popularProducts=[
 
 {
     id:7,
-    img:"https://media.istockphoto.com/photos/denim-skirt-isolated-picture-id1162100585"
+    img:"Images/denim-skirt.png"
 },
 {
     id:8,

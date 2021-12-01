@@ -1,9 +1,11 @@
-import Home from "./pages/Home";
+
 import './App.css';
+ import Singup from './pages/Signup';
 
 function App() {
   return (
-    <Home />
+
+    <Singup />
   );
 }
 

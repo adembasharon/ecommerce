@@ -1,0 +1,111 @@
+.footer{
+    background-color: rgb(209, 181, 186);
+}
+
+.footer-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content:center;
+    padding:2em;
+    gap: 2em;
+}
+.fashioned-footer{
+    flex: 1;
+}
+.footer-paragraph{
+    font-size: 1rem;
+    margin: 1em 0;
+}
+.fashioned-footer h1{
+    font-size: 2.5rem;
+}
+.list-item li{
+    list-style-type: none;
+    font-size: 1rem;
+}
+.list-item h2{
+    font-size: 1.5rem;
+    
+}
+.list-item ul li a{
+    text-decoration: none;
+    color: black;
+    margin-top: .8em;
+}
+.list-item{
+    flex: 1;
+}
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+}
+.footer-icons *{
+    margin: .5em;
+    
+}
+.enterprices{
+    background-color: rgb(43, 40, 40);
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    padding: .5em;
+}
+.contact-list ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     margin-top: 1em;
+}
+.facebook{
+    border-radius: 70%;
+
+    background-color: rgb(81, 81, 170);
+    color: white;
+}
+.facebook a{
+    color: white;
+}
+.instagram{
+
+    border-radius: 70%;
+    background-color: rgb(243, 198, 205);
+    color: white;
+}
+.instagram a{
+    color: white;
+}
+.twiter{
+    border-radius: 70%;
+    background-color:rgb(55, 55, 114);
+    color: white;
+}
+.twiter a{
+    color: white;
+}
+.pinteres{
+    border-radius: 70%;
+    background-color: crimson;
+    color: white;
+}
+.pinteres a{
+    color: white;
+}
+
+.paybill-icons{
+    width: 20%;
+    margin-left: 2em;
+}
+.paybill{
+    margin-top:1em;
+}
+
+.footer-icons div{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
