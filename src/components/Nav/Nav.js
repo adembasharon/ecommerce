@@ -2,6 +2,7 @@ import React from "react";
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import LocalMallOutlinedIcon from '@mui/icons-material/LocalMallOutlined';
 import Badge from '@mui/material/Badge';
+import {Link} from "react-router-dom"
 import MailIcon from '@mui/icons-material/Mail';
 
 
@@ -26,9 +27,9 @@ const Nav=()=>{
         <li><a href="#">LOGIN</a></li>
         <li><a href="#">Register</a></li>
 
-       <li> <Badge badgeContent={4} color="secondary">
+       <Link to="/Cart"><Badge badgeContent={4} color="secondary">
     <LocalMallOutlinedIcon color="action" />
-      </Badge></li>
+      </Badge></Link>
 
 
 

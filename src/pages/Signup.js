@@ -20,6 +20,11 @@ function onConfirmPassword(e) {
  
 
 }
+const renderIcon=()=>{
+    if(confirmPassword!==""){
+        return password===confirmPassword?<CheckOutlinedIcon style={{color:"green"}}/>:<ClearIcon style={{color:"red"}}/>
+    }
+}
 
     return(
 <div>
@@ -51,7 +56,6 @@ function onConfirmPassword(e) {
 <div className="signup-details">
 <input className="sign-up-details" type="text" placeholder="Enter Your Email" />
 </div>
-{/* <label>Password</label> */}
 <div className="signup-details">
 <input onChange={(e)=>onPasswordChange(e)} className="sign-up-details" type="text" placeholder="Enter your Password " />
 </div>
@@ -59,20 +63,7 @@ function onConfirmPassword(e) {
 <input onChange={(e)=>onConfirmPassword(e)} className="sign-up-details" type="text" placeholder="Confirm your password" />
 </div>
 <div>
-    
-
- { 
-
- 
-   password===confirmPassword?<CheckOutlinedIcon style={{color:"green"}}/>:<ClearIcon style={{color:"red"}}/>
- 
- 
- 
-
- 
- }
-    
-
+{renderIcon()}
 </div>
 <div className="signup-footer">
     <div>
