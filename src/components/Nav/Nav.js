@@ -4,7 +4,7 @@ import LocalMallOutlinedIcon from '@mui/icons-material/LocalMallOutlined';
 import Badge from '@mui/material/Badge';
 import {Link} from "react-router-dom"
 import MailIcon from '@mui/icons-material/Mail';
-
+import Login from "../../components/../pages/Login"
 
 import "./Nav.css";
 const Nav=()=>{
@@ -24,8 +24,8 @@ const Nav=()=>{
 </div>
 <div className="right">
     <ul>
-        <li><a href="#">LOGIN</a></li>
-        <li><a href="#">Register</a></li>
+        <li><Link to="/Login">LOGIN</Link></li>
+        <li><Link to="/Signup">Register</Link></li>
 
        <Link to="/Cart"><Badge badgeContent={4} color="secondary">
     <LocalMallOutlinedIcon color="action" />
