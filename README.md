@@ -1,12 +1,12 @@
-#MAGOSO ENTERPRICE
+# MAGOSO ENTERPRICE
 ---
-##DESCRIPTION
+## DESCRIPTION
 ---
-##PROJECT LINK
+## PROJECT LINK
 You can view the live project [here](https://adembasharon.github.io/ecommerce/)
 
 This is the official ecommerce website for Magoso Youth Center that deals with fashion and design of diffrent cloths worldwide.You can order  variety of clothings and get them delivered at your doorstep.
-##PROJECT SCREEN SHOT
+## PROJECT SCREEN SHOT
 ---
 ![Website top section](./public/Images/Screenshot2.png)
 ***
@@ -15,7 +15,7 @@ This is the official ecommerce website for Magoso Youth Center that deals with f
 ![Website top section](./public/Images/screenshot3.png)
 ***
 
-##SETUP AND ISTALLATIONS
+## SETUP AND ISTALLATIONS
 ---
 To run this applicatin on your computer do the following:
 - clone the project to your disired location using ```git clone  https://adembasharon.github.io/ecommerce/```
@@ -23,7 +23,7 @@ To run this applicatin on your computer do the following:
 - open the project using your favourite text editer eg in VS Code use ```code .```
 - install all the dependency using ```npm install```(to use npm you must have [node](https://nodejs.org/en/) installed)
 - run ```npm start```
-##TECHNOLOGIES USED
+## TECHNOLOGIES USED
 ---
 - HTML5
 - CSS3
@@ -33,11 +33,11 @@ To run this applicatin on your computer do the following:
 - React Router v6.0.2
 - Nodejs v16.13.0
 
-##KNOWN BUGS
+## KNOWN BUGS
 ---
 make sure you download **LTS** version of node
 
-##LICENSE
+## LICENSE
 ---
 
 MIT License
@@ -62,10 +62,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-##COTACT INFORMATION
+## COTACT INFORMATION
 ---
 Icase of enquaries or bags you can reach me on adembasharon816@gmail.com
-##AUTHOR
+## AUTHOR
 ---
 ***ADEMBA SHARON***
 
