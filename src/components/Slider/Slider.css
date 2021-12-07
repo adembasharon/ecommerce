@@ -65,9 +65,15 @@ transform:translateY(-40%);
     right: 0;
     margin-right: .7em;
 }
-
-
-
+/* media queries */
+@media (width:768px),(width:414px){
+.slide-image{
+display: none;
+}
+.slider-wrapper{
+    display: none;
+}
+}
 
 
 

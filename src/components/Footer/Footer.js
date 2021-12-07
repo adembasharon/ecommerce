@@ -63,9 +63,11 @@ const Footer=()=>{
 </ul>
 <div className="paybill">
 <h3>Pay Through:</h3>
+<div className="payment-icons">
 <img className="paybill-icons" src="Images/master-card.svg" />
 <img className="paybill-icons" src="Images/M-PESA_LOGO-01.svg" />
 <img className="paybill-icons" src="Images/visa.svg" />
+</div>
 </div>
 </div>
 

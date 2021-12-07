@@ -43,4 +43,14 @@
     color: white;
     
 }
+/* media quries */
+@media (max-width:768px) , (max-width:414px){
+.paragraph{
+    width: 100%;
+    font-size: 1.5rem;
+}
+.input-item input{
+    width: 100%;
+}
+}
 

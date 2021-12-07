@@ -29,7 +29,7 @@ const decrease=()=>{
 <div className="cart-images1">
     <div  className="cart-part1 cartborder">
     <div>
-<h3>You Cart</h3>
+<h3 className="youcart">You Cart</h3>
 <div className="cart-images">
 <img src="https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388"/>
 </div>
@@ -106,8 +106,9 @@ const decrease=()=>{
 <p className="cart-delete"> <DeleteOutlineIcon />Remove item</p>
 </div>
 </div>
-
 </div>
+
+
 </div>
 <div className="shopping-btn">
 <button className="btn">CONTINUE SHOPPING</button>

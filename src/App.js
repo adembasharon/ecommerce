@@ -9,13 +9,9 @@ function App() {
 <Router>
   <Routes>
     <Route path="/" element={<Home/>}/>
-
-    
     <Route path="Cart" element={<Cart/>}/>
     <Route path="Login" element={<Login/>}/>
     <Route path="Signup" element={<Signup/>}/>
-    {/* <Route path="Singleproduct" element={<Singleproduct/>}/> */}
-    {/* <Route path="Productpage" element={<Productpae/>}/> */}
   </Routes>
   </Router>
 

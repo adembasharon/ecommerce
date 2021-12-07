@@ -45,7 +45,7 @@ showPassword:false
 </div>
 </div>
 </div>
-<div>
+<div className="loginbtn">
 <input className='login' type="button" value="Login" />
 </div>
 <div className="check">

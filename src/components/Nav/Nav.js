@@ -20,12 +20,12 @@ const Nav=()=>{
 </div>
 
 <div className="center">
-    <h1>MAGOSO ENTERPRICE.</h1>
+ <Link to="/" > <h1>MAGOSO ENTERPRICE.</h1></Link>
 </div>
 <div className="right">
     <ul>
         <li><Link to="/Login">LOGIN</Link></li>
-        <li><Link to="/Signup">Register</Link></li>
+        <li><Link to="/Signup">REGISTER</Link></li>
 
        <Link to="/Cart"><Badge badgeContent={4} color="secondary">
     <LocalMallOutlinedIcon color="action" />

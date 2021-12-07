@@ -1,6 +1,15 @@
 .categorycontainer{
     display: flex;
+    flex-wrap: wrap;
     
     
+}
+
+/* media queries */
+@media (max-width:428px){
+    .categorycontainer{
+    flex-wrap: wrap;
+    
+    }
 }
 

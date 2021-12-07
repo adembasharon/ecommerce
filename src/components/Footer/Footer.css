@@ -92,9 +92,14 @@
     color: white;
 }
 
+.payment-icons{
+    display: flex;
+}
+
 .paybill-icons{
     width: 20%;
-    margin-left: 2em;
+    margin-left: 1em;
+    display: block;
 }
 .paybill{
     margin-top:1em;
@@ -107,5 +112,34 @@
     justify-content: center;
     align-items: center;
 }
+/* media queries */
+@media (max-width:768px){
+    .enterprices{
+        font-size: .2rem;
+    }
 
+    .list-item h2,h3{
+font-size: 1.4rem;
+    }
+}
 
+@media(max-width:414px){
+ .footer-container{
+     flex-wrap: wrap;
+ }  
+ .list-item{
+     flex: none;
+     width: 100%;
+ } 
+ .contact-list{
+     flex: none;
+ }
+ .paybill-icons{
+     width: 50px;
+     
+}
+ .enterprices{
+     font-size: 1rem;
+ }
+
+}
